@@ -4,7 +4,6 @@
 #define SKILL_STONEMASONRY  /decl/skill/crafting/stonemasonry
 #define SKILL_SCULPTING     /decl/skill/crafting/sculpting
 #define SKILL_ARTIFICE      /decl/skill/crafting/artifice
-
 #define SKILL_HUSBANDRY     /decl/skill/service/husbandry
 
 /decl/skill/Initialize()
@@ -155,6 +154,19 @@
 
 /decl/material/solid/organic/plantmatter/pith // not quite wood but it's basically still wood carving
 	crafting_skill = SKILL_CARPENTRY
+
+// ANIMA OVERRIDES
+/decl/stack_recipe/potentia
+	recipe_skill = /decl/skill/crafting/artifice
+
+/obj/item/runestone
+	work_skill = /decl/skill/crafting/artifice
+
+/decl/material/solid/potentia
+	arcana_skill = SKILL_SCIENCE
+
+/decl/runestone_spell_archetype
+	arcana_skill = SKILL_SCIENCE
 
 // MISC OVERRIDES
 /decl/stack_recipe
