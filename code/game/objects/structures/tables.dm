@@ -663,6 +663,11 @@
 	color = COLOR_GRAY80
 	reinf_material = /decl/material/solid/stone/marble
 
+// A marble table constructed entirely out of marble, no steel.
+/obj/structure/table/marble/full
+	material = /decl/material/solid/stone/marble
+	color = /decl/material/solid/stone/marble::color
+
 /obj/structure/table/reinforced
 	icon_state = "reinf_preview"
 	color = COLOR_OFF_WHITE

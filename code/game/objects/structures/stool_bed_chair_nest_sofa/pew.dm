@@ -17,6 +17,10 @@
 	anchored = FALSE
 	connect_neighbors = FALSE
 
+/obj/structure/bed/chair/bench/single/ebony
+	material = /decl/material/solid/organic/wood/ebony
+	color = /decl/material/solid/organic/wood/ebony::color
+
 /obj/structure/bed/chair/bench/Initialize(mapload)
 	. = ..()
 	if(connect_neighbors)
