@@ -113,7 +113,16 @@ STACK_SUBTYPES(plastic,        "plastic",                       solid/organic/pl
 STACK_SUBTYPES(aluminium,      "aluminium",                     solid/metal/aluminium,       strut,            null)
 STACK_SUBTYPES(titanium,       "titanium",                      solid/metal/titanium,        strut,            null)
 
-STACK_SUBTYPES(cotton,         "cotton",                        solid/organic/cloth,         thread,           null)
+STACK_SUBTYPES(cotton,         "cotton thread",                 solid/organic/cloth,         thread,           null)
+STACK_SUBTYPES(yellow,         "yellow cotton thread",          solid/organic/cloth,         thread/yellow,    null)
+STACK_SUBTYPES(teal,           "teal cotton thread",            solid/organic/cloth,         thread/teal,      null)
+STACK_SUBTYPES(black,          "black cotton thread",           solid/organic/cloth,         thread/black,     null)
+STACK_SUBTYPES(green,          "green cotton thread",           solid/organic/cloth,         thread/green,     null)
+STACK_SUBTYPES(purple,         "purple cotton thread",          solid/organic/cloth,         thread/purple,    null)
+STACK_SUBTYPES(blue,           "blue cotton thread",            solid/organic/cloth,         thread/blue,      null)
+STACK_SUBTYPES(beige,          "beige cotton thread",           solid/organic/cloth,         thread/beige,     null)
+STACK_SUBTYPES(lime,           "lime cotton thread",            solid/organic/cloth,         thread/lime,      null)
+STACK_SUBTYPES(red,            "red cotton thread",             solid/organic/cloth,         thread/red,       null)
 STACK_SUBTYPES(dried_gut,      "dried gut",                     solid/organic/leather/gut,   thread,           null)
 
 #undef STACK_SUBTYPES
