@@ -6,3 +6,7 @@
 	max_heat_protection_temperature = SHOE_MAX_HEAT_PROTECTION_TEMPERATURE
 	footstep_volume_mod = 0.8
 	snow_slowdown_mod = -1
+
+/obj/item/clothing/shoes/winterboots/real
+	desc = "Boots with the fur."
+	material = /decl/material/solid/organic/skin/fur/brown
