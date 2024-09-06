@@ -51,3 +51,13 @@
 					new mob_type(place_mob_at)
 					mob_count--
 					CHECK_TICK
+
+/datum/level_data/player_level/karzerfeste/town
+	name = "Karzerfeste - Town"
+	level_id = "karzerfeste_town"
+	level_generators = list(
+		/datum/random_map/noise/forage
+	)
+
+/obj/abstract/level_data_spawner/karzerfeste_town
+	level_data_type = /datum/level_data/player_level/karzerfeste/town

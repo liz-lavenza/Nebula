@@ -20,6 +20,8 @@
 	#include "karzerfeste_testing.dm"
 	#include "karzerfeste_turfs.dm"
 
+	#include "karzerfeste-town.dmm"
+
 	#define USING_MAP_DATUM /datum/map/karzerfeste
 
 #elif !defined(MAP_OVERRIDE)
