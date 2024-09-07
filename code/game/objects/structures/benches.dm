@@ -38,6 +38,28 @@
 	material = /decl/material/solid/organic/wood
 	reinf_material = /decl/material/solid/organic/wood
 
+/obj/structure/table/bench/wooden/ebony
+	material = /decl/material/solid/organic/wood/ebony
+	reinf_material = /decl/material/solid/organic/wood/ebony
+	color = /decl/material/solid/organic/wood/ebony::color
+
+/obj/structure/table/bench/wooden/walnut
+	material = /decl/material/solid/organic/wood/walnut
+	reinf_material = /decl/material/solid/organic/wood/walnut
+	color = /decl/material/solid/organic/wood/walnut::color
+
+/obj/structure/table/bench/wooden/walnut/stage
+	name = "stage"
+
+// This is bad copypasta.
+/obj/structure/table/bench/wooden/walnut/stage/update_material_name(override_name)
+	if(reinf_material)
+		name = "[reinf_material.solid_name] stage"
+	else if(material)
+		name = "[material.solid_name] stage frame"
+	else
+		name = "stage frame"
+
 /obj/structure/table/bench/padded
 	icon_state = "padded_preview"
 	material = /decl/material/solid/metal/steel
