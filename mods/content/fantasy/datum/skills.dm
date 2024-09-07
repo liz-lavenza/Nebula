@@ -119,6 +119,9 @@
 /obj/structure/working
 	work_skill = SKILL_TEXTILES
 
+/obj/structure/working/butter_churn
+	work_skill = SKILL_COOKING
+
 /obj/item/stack/material/skin
 	work_skill = SKILL_TEXTILES
 
