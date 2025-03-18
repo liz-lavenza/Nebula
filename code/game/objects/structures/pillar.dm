@@ -17,3 +17,14 @@
 
 /obj/structure/pillar/triad
 	icon = 'icons/obj/structures/pillars/pillar_triad.dmi'
+
+#define PILLAR_STONE_SUBTYPE(STONE) \
+/obj/structure/pillar/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/pillar/narrow/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/pillar/round/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/pillar/triad/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color}
+
+PILLAR_STONE_SUBTYPE(basalt)
+PILLAR_STONE_SUBTYPE(granite)
+PILLAR_STONE_SUBTYPE(sandstone)
+#undef PILLAR_STONE_SUBTYPE
