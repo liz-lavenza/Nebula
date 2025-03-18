@@ -313,7 +313,7 @@
 /turf/floor/natural/dirt,
 /area/kingdom_come)
 "oC" = (
-/obj/structure/textiles/spinning_wheel/ebony,
+/obj/structure/working/spinning_wheel/ebony,
 /turf/floor/wood/walnut,
 /area/kingdom_come)
 "oI" = (
@@ -585,7 +585,7 @@
 /turf/floor/natural/dirt,
 /area/kingdom_come)
 "AB" = (
-/obj/structure/textiles/loom/ebony,
+/obj/structure/working/loom/ebony,
 /turf/floor/wood/walnut,
 /area/kingdom_come)
 "AD" = (
