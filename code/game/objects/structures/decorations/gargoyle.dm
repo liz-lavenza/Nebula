@@ -18,3 +18,14 @@
 		'icons/obj/structures/decorations/gargoyle_standing.dmi'
 	))
 	. = ..()
+
+#define GARGOYLE_STONE_SUBTYPE(STONE) \
+/obj/structure/decoration/gargoyle/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/decoration/gargoyle/plinth/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/decoration/gargoyle/standing/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/decoration/gargoyle/random/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color}
+
+GARGOYLE_STONE_SUBTYPE(marble)
+GARGOYLE_STONE_SUBTYPE(granite)
+GARGOYLE_STONE_SUBTYPE(sandstone)
+#undef GARGOYLE_STONE_SUBTYPE
