@@ -25,3 +25,14 @@
 
 /obj/structure/pedestal/triad
 	icon = 'icons/obj/structures/pedestals/pedestal_triad.dmi'
+
+#define PEDESTAL_STONE_SUBTYPE(STONE) \
+/obj/structure/pedestal/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/pedestal/narrow/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/pedestal/round/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color} \
+/obj/structure/pedestal/triad/##STONE {material = /decl/material/solid/stone/##STONE; color = /decl/material/solid/stone/##STONE::color}
+
+PEDESTAL_STONE_SUBTYPE(basalt)
+PEDESTAL_STONE_SUBTYPE(granite)
+PEDESTAL_STONE_SUBTYPE(sandstone)
+#undef PEDESTAL_STONE_SUBTYPE
