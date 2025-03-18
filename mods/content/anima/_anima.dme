@@ -1,5 +1,10 @@
 #ifndef MODPACK_ANIMA
 #define MODPACK_ANIMA
+
+#ifdef MODPACK_FANTASY
+#error Fantasy modpack loaded before Anima modpack, anima will use incorrect work skills!
+#endif
+
 // BEGIN_INCLUDE
 #include "_anima.dm"
 #include "potentia_definition.dm"

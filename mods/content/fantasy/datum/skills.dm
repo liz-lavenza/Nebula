@@ -158,6 +158,7 @@
 /decl/material/solid/organic/plantmatter/pith // not quite wood but it's basically still wood carving
 	crafting_skill = SKILL_CARPENTRY
 
+#ifdef MODPACK_ANIMA
 // ANIMA OVERRIDES
 /decl/stack_recipe/potentia
 	recipe_skill = /decl/skill/crafting/artifice
@@ -170,6 +171,7 @@
 
 /decl/runestone_spell_archetype
 	arcana_skill = SKILL_SCIENCE
+#endif
 
 // MISC OVERRIDES
 /decl/stack_recipe
