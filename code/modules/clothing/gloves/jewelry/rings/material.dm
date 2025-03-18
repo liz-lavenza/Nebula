@@ -33,17 +33,25 @@
 
 /obj/item/clothing/gloves/ring/material/wood
 	material = /decl/material/solid/organic/wood/walnut
+	color = /decl/material/solid/organic/wood/walnut::color
 /obj/item/clothing/gloves/ring/material/plastic
 	material = /decl/material/solid/organic/plastic
+	color = /decl/material/solid/organic/plastic::color
 /obj/item/clothing/gloves/ring/material/steel
 	material = /decl/material/solid/metal/steel
+	color = /decl/material/solid/metal/steel::color
 /obj/item/clothing/gloves/ring/material/silver
 	material = /decl/material/solid/metal/silver
+	color = /decl/material/solid/metal/silver::color
 /obj/item/clothing/gloves/ring/material/gold
 	material = /decl/material/solid/metal/gold
+	color = /decl/material/solid/metal/gold::color
 /obj/item/clothing/gloves/ring/material/platinum
 	material = /decl/material/solid/metal/platinum
+	color = /decl/material/solid/metal/platinum::color
 /obj/item/clothing/gloves/ring/material/bronze
 	material = /decl/material/solid/metal/bronze
+	color = /decl/material/solid/metal/bronze::color
 /obj/item/clothing/gloves/ring/material/glass
 	material = /decl/material/solid/glass
+	color = /decl/material/solid/glass::color
